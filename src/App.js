@@ -6,6 +6,8 @@ function App() {
     return (
         <div className="App">
             <MyButton>Buy NOW!</MyButton>
+            <MyButton variant={'contained'}>Contained</MyButton>
+            <MyButton variant={'outlined'}>Outlined</MyButton>
         </div>
     );
 }
