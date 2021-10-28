@@ -2,9 +2,9 @@ import React from 'react'
 import './App.css';
 import MyButton from "./MyButton";
 import { ThemeProvider } from '@mui/material/styles';
-
 import {primaryTheme} from "./primaryTheme";
 import MyMaterialButton from "./MyMaterialButton";
+import MyComponent from "./MyComponent";
 
 function App() {
     return (
@@ -16,6 +16,7 @@ function App() {
                 <MyMaterialButton variant="text">Text</MyMaterialButton>
                 <MyMaterialButton variant="contained">Contained</MyMaterialButton>
                 <MyMaterialButton variant="outlined">Outlined</MyMaterialButton>
+                <MyComponent>Some text</MyComponent>
             </div>
         </ThemeProvider>
 
