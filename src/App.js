@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css';
 import MyButton from "./MyButton";
-import {ThemeProvider} from "styled-components";
+import { ThemeProvider } from '@mui/material/styles';
+
 import {primaryTheme} from "./primaryTheme";
 import MyMaterialButton from "./MyMaterialButton";
 
