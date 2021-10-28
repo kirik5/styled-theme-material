@@ -12,7 +12,9 @@ function App() {
                 <MyButton>Buy NOW!</MyButton>
                 <MyButton variant={'contained'}>Contained</MyButton>
                 <MyButton variant={'outlined'}>Outlined</MyButton>
-                <MyMaterialButton>Text</MyMaterialButton>
+                <MyMaterialButton variant="text">Text</MyMaterialButton>
+                <MyMaterialButton variant="contained">Contained</MyMaterialButton>
+                <MyMaterialButton variant="outlined">Outlined</MyMaterialButton>
             </div>
         </ThemeProvider>
 
